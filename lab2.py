@@ -1,15 +1,7 @@
-print('"we are learning", he said')
+list_nos = []
+print("enter list of numbers")
 
-print('he said, "I\'m learning".')
+for i in range(5):
+    list_nos.append(int(input()))
 
-# TASK 2
-radius = 3.12
-pi = 3.14
-
-print(pi * radius ** 2)
-
-#task 3
-sap_id = input("write your sap id:")
-name = input("write your name:")
-
-print(name, sap_id)
+print("sum is:", sum(list_nos))
