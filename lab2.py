@@ -6,6 +6,13 @@ for i in range(5):
 
 print("sum is:", sum(list_nos))
 
+avg=0
+for i in range(5):
+    avg += list_nos[i]
+
+avg = avg / 5
+print("Average is:", avg) 
+
 # TASK 2
 
 for i in range(-4, 1):
